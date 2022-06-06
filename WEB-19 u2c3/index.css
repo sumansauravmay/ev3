@@ -1,0 +1,76 @@
+/* Fill CSS here */
+h1{
+    text-align: center;
+    font-size: 40px;
+    color:blue;
+}
+form{
+    margin:top;
+    width:20%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:30px;
+}
+label{
+    font-size:20px;
+}
+table{
+    width:55%;
+    margin:auto;
+    margin-bottom:100px;
+    text-align: center;
+    border-collapse: collapse;
+    /* border:1px solid red; */
+}
+
+table td,
+table th {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:8px;
+    text-align:center;
+    
+    
+}
+table tr:nth-child(even){
+    background-color: brown;
+}
+table tr:hover{
+    background-color:aqua;
+}
+table th{
+    padding-top:12px;
+    padding-bottom:12px;
+    text-align: left;
+    background-color: blue;
+    color:white;
+    text-align:center;
+    
+}
+*{
+    box-sizing:border-box;
+}
+input[type="submit"]
+{
+    background-color: blueviolet;
+    color:white;
+    padding:12px 20px;
+    border:0px;
+    border-radius:20px;
+    cursor:pointer;
+    width:100%;
+    font-size:20px;
+margin-top:30px
+}
+input[type="text"],
+input[type="number"],
+select,textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid green;
+    border-radius: 5px;
+    box-sizing:border-box;
+    margin-top:18px;
+    resize:vertical;
+}
+input[type="submit"]:hover{
+    background-color: rgb(230, 14, 14);
+}
